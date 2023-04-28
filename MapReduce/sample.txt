@@ -1,0 +1,21 @@
+s904	s904,Movie	
+s910	s910,Movie	
+s912	s912,TV Show	
+s914	s914,Movie	
+s919	s919,TV Show	
+s960	s960,Movie	
+s974	s974,Movie	
+s975	s975,Movie
+s999	s999,Movie
+
+#command = 'hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -files /home/hadoop/mapper.py,/home/hadoop/reducer.py -mapper mapper.py  -reducer reducer.py -input hdfs:///user/hadoop/word.txt -output hdfs:///user/hadoop/output'
+#scp -i mykey.pem ec2-user@<emr-master-dns>:/path/to/my/file.txt /path/to/local/directory/
+#scp -i ~/Downloads/mykey.pem hadoop@ec2-123-45-67-89.compute-1.amazonaws.com:/home/hadoop/output/output.txt ~/Downloads/
+#query=select show_id,  type  from NetflixShows where country="India"
+#<--- supported queries--->
+#select * from table;
+#select col1,col2 from table;
+#select * from table where col=2;
+#select col1,col2 from table where col=2;
+#SELECT * FROM Customers LIMIT 3;
+#select count(*) from table;
