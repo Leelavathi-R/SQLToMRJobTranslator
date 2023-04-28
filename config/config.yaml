@@ -4,8 +4,8 @@ reducer_path: /home/hadoop/reducer.py
 input_output_dir: /user/hadoop
 element_path: /home/hadoop/elements.json
 local_in_out_dir: /home/hadoop
-emr_dns: "ec2-100-26-9-242.compute-1.amazonaws.com"
-key_file: "./emr-key-pair.pem"
+emr_dns: "emr/dns_name"
+key_file: "path/to/emr-key-pair.pem"
 username: "ec2-user"
 local_mapper: ./MapReduce/mapper.py
 local_reducer: ./MapReduce/reducer.py
