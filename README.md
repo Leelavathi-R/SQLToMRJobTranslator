@@ -8,6 +8,7 @@ The [Netflix](https://www.kaggle.com/datasets/shivamb/netflix-shows) dataset has
 - Python >= 3.0
 - Paramiko
 - AWS EMR Cluster
+- Update config.yaml and schema.yaml contents
 
 ## Query Template
 - SELECT \<COLUMNS\> FROM TABLENAME WHERE \<COLUMN\> = X;
