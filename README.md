@@ -10,7 +10,7 @@ The [Netflix](https://www.kaggle.com/datasets/shivamb/netflix-shows) dataset has
 - AWS EMR Cluster
 
 ## Query Template
-- SELECT <COLUMNS> FROM TABLENAME WHERE <COLUMN> = X;
+- SELECT \<COLUMNS\> FROM TABLENAME WHERE \<COLUMN\> = X;
 
 ## Data Description
 - show_id
