@@ -13,19 +13,5 @@ The [Netflix](https://www.kaggle.com/datasets/shivamb/netflix-shows) dataset has
 ## Query Template
 - SELECT \<COLUMNS\> FROM TABLENAME WHERE \<COLUMN\> = X;
 
-## Data Description
-- show_id
-- type
-- title
-- director
-- cast
-- country
-- date_added
-- release_year
-- rating
-- duration
-- listed_in
-- description
-
 ## Limitation
 - Supports basic SQL SELECT queries with and without WHERE clause.
