@@ -14,7 +14,7 @@ The [Netflix](https://www.kaggle.com/datasets/shivamb/netflix-shows) dataset has
 - SELECT \<COLUMNS\> FROM TABLENAME WHERE \<COLUMN\> = X;
 
 ## Demo: select * from NetflixShows where country = "India"
-![Demo]demo/demo.png
+![Demo](demo/demo.png)
 
 ## Limitation
 - Supports basic SQL SELECT queries with and without WHERE clause.
