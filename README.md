@@ -1,21 +1,22 @@
 <h1 align="center">SQLToMRJobTranslator</h1>
 
-SQLToMRJob Translator is a REST-API service that translates the SQL queries into MapReduce jobs and executes those jobs on the AWS EMR cluster using hadoop-streaming.jar and returns the results to the user.
-
-The [Netflix](https://www.kaggle.com/datasets/shivamb/netflix-shows) dataset has been taken to build and test the system, but it can support other datasets as well by updating the /config/config.yaml file.
+This project explores and performs EDA to identify how information dissemination and accessibility make a person popular and its profound impact on modern society. To facilitate our work we collected data from Google Trends and Wikipedia and we trained a Decision Tree model to predict whether a person is popular.
  
 ## Requirements
 - Python >= 3.0
-- Paramiko
-- AWS EMR Cluster
-- Update config.yaml and schema.yaml contents
+- R
+- RStudio
+  
+## Features
+- Date
+- Name
+- Relative popularity
+- Page views
+- Edits
+- Nationality
+- Profession
+- Popular
+  
+## Output: 
+![Demo](people-popularity-prediction.nb.html)
 
-## Query Template
-- SELECT \<COLUMNS\> FROM TABLENAME WHERE \<COLUMN\> = X;
-
-## Demo: 
-select * from NetflixShows where country = "India"
-![Demo](demo/demo.png)
-
-## Limitation
-- Supports basic SQL SELECT queries with and without WHERE clause.
