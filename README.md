@@ -19,4 +19,3 @@ This project explores and performs EDA to identify how information dissemination
   
 ## Output: 
 ![Demo](people-popularity-prediction.nb.html)
-
