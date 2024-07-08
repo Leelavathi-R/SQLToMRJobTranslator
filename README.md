@@ -5,10 +5,10 @@ SQLToMRJob Translator is a REST-API service that translates the SQL queries into
 The [Netflix](https://www.kaggle.com/datasets/shivamb/netflix-shows) dataset has been taken to build and test the system, but it can support other datasets as well by updating the /config/config.yaml file.
 
 ## Requirements
-Python >= 3.0
-Paramiko
-AWS EMR Cluster
-Update config.yaml and schema.yaml contents
+* Python >= 3.0
+* Paramiko
+* AWS EMR Cluster
+* Update config.yaml and schema.yaml contents
 
 ## Query Template
 SELECT <COLUMNS> FROM TABLENAME WHERE <COLUMN> = X;
